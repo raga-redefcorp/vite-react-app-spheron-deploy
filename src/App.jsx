@@ -22,7 +22,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs...
+            Vite Docs
           </a>
         </p>
       </header>

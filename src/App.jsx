@@ -5,14 +5,12 @@ import './App.css';
 const App = () => {
   const [count, setCount] = useState(0);
   const env_name = import.meta.env.VITE_ENV_NAME
-  const env_value = import.meta.env.VITE_ENV_VALUE
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Env Name: {env_name}</p>
-        <p>Env Value: {env_value}</p>
         <p>
           <button onClick={() => setCount(count => count + 1)}>
             count is: {count}
